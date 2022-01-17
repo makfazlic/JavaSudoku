@@ -105,5 +105,9 @@ public class Sudoku {
 
             
         }
+        for (int j = 0; j < GRID_SIZE; j++) {
+            System.out.print("---");
+        }
+        System.out.print("-");
     }
 }
